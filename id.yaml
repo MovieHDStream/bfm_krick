@@ -1,0 +1,14 @@
+proxies:
+- name: TtrojanGo-id
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: jagoanssh-krick25
+  udp: true
+  sni: id2go.ipservers.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers: 
+      host: id2go.ipservers.xyz

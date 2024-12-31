@@ -1,0 +1,40 @@
+proxies:
+- name: Godaddy Domain
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 676b9bd9-0bc7-4f70-82fd-6fc81e27fd58
+  udp: true
+  sni: sg-gd.vpnkudaliar.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers: 
+      host: sg-gd.vpnkudaliar.my.id
+- name: Godaddy IP
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 676b9bd9-0bc7-4f70-82fd-6fc81e27fd58
+  udp: true
+  sni: sg-gd.vpnkudaliar.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers: 
+      host: sg-gd.vpnkudaliar.my.id
+- name: Godaddy
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 676b9bd9-0bc7-4f70-82fd-6fc81e27fd58
+  udp: true
+  sni: sg-gd.webkuy.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers: 
+      host: sg-gd.webkuy.my.id
